@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.mainContainer {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.miniContainer {
+  width: 60vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #a35200;
+}
+
+.tossCaption {
+  color: #334155;
+  font-weight: 500;
+}
+
+.tossImage {
+  height: 200px;
+  width: 200px;
+}
+
+.tossButton {
+  padding: 9px;
+  width: 90px;
+  border-style: none;
+  border-radius: 7px;
+  background-color: #efc167;
+  color: #a35200;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.counterContainer {
+  display: flex;
+}
+
+.tossCount {
+  color: #475569;
+  font-weight: 500;
+  margin: 20px;
+}
